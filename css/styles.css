@@ -6,7 +6,7 @@ body {
 }
 aside {
     text-align: end;
-    border-right: 1em solid rgb(95, 88, 143);
+    border-right: 1em solid rgb(161, 95, 194);
     padding-right: 1em;
     padding-top: 2px;
     width: 40%;
@@ -49,8 +49,8 @@ footer a:link {
     color: gray;
 }
 section {
-    border: 3px solid green;
-    border-left: 2em solid green;
+    border: 3px solid rgb(161, 95, 194);
+    border-left: 2em solid rgb(161, 95, 194);
     background-color: lightgoldenrodyellow;
     padding: .5em;
 }
