@@ -1,0 +1,50 @@
+body {
+    background-image: url("../img/WidgetCoLogo.gif");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+aside {
+    text-align: end;
+    border-right: 1em solid rgb(95, 88, 143);
+    padding-right: 1em;
+    padding-top: 2px;
+}
+aside::first-line {
+    font-weight: bold;
+}
+header {
+    text-align: center;
+    font-variant-caps: small-caps;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 1em solid black;
+    padding: 2px;
+}
+h2 {
+    font-style: italic;
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+article {
+    margin: 0 4em 0 4em;
+}
+footer {
+    font-style: italic;
+    text-align: end;
+    color: darkgray;
+    border-top: 2px solid gray;
+    margin-top: 1em;
+    padding-top: 3px;
+}
+footer a:link {
+    color: gray;
+}
+section {
+    border: 3px solid green;
+    border-left: 2em solid green;
+    background-color: lightgoldenrodyellow;
+    padding: .5em;
+}
