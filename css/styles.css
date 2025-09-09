@@ -9,6 +9,8 @@ aside {
     border-right: 1em solid rgb(95, 88, 143);
     padding-right: 1em;
     padding-top: 2px;
+    width: 40%;
+    float: right;
 }
 aside::first-line {
     font-weight: bold;
@@ -21,6 +23,9 @@ header {
     border-right: 1em solid black;
     padding: 2px;
 }
+h1 {
+    width: 60%;
+}
 h2 {
     font-style: italic;
     text-align: center;
@@ -30,6 +35,7 @@ p {
 }
 article {
     margin: 0 4em 0 4em;
+    clear: both;
 }
 footer {
     font-style: italic;
